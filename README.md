@@ -7,6 +7,8 @@ The source code is include as is an executable for easy use.
 
 Credit: 
 (PyBluez)
+https://github.com/karulis/pybluez
+Was:
 https://code.google.com/p/pybluez/wiki/Documentation
 
 (SendKeys - Ctypes)
@@ -14,4 +16,13 @@ https://code.google.com/p/sendkeys-ctypes/
 
 (PyInstaller)
 http://www.pyinstaller.org/
+
+(SetupTools) required from PyInstaller
+https://pypi.python.org/pypi/setuptools
+
+Once all dependencies are built, build with Pyinstaller with 
+`PyInstaller --onefile Slidesurf.py`
+
+
+
 
